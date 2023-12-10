@@ -11,6 +11,10 @@ body {
     text-align: left;
 }
 
+.welcomeHeader.d-sm-none-description {
+    font-size: 12pt;
+}
+
 .col-6 h4,
 a {
     margin-left: 5%;
@@ -36,10 +40,6 @@ a {
 .workDescription{
     margin-left: 5%;
     font-size: 18px;
-}
-
-.i{
-    color:red,
 }
 
 .card-title {
@@ -125,4 +125,15 @@ a {
 .card-img-top,
 .card-img-bottom {
     max-height: 100%;
+}
+
+.card-title {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+@media (max-width: 400px) {
+    .card {
+        height: 25vh;
+    }
 }
