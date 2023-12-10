@@ -7,8 +7,6 @@ body {
     ;
 }
 
-/* welcome-section */
-
 .welcomeHeader{
     text-align: left;
 }
@@ -48,17 +46,6 @@ a {
     max-width: 100%;
     font-size: 4vw;
 }
-
-/* .card-img,
-.card-img-top,
-.card-img-bottom {
-    max-width: 100%;
-    height: auto;
-    min-height: 38vh;
-    max-height: 100vh;
-    max-width: 100vh;
-} */
-
 
 .text-white .card-img {
     filter: brightness(75%) saturate(50%);
