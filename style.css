@@ -105,3 +105,30 @@ a {
     margin-left: 5%;
 }
 
+@media (max-width: 768px) {
+    .col-4 p {
+        font-size: 14px;
+    }
+
+    .buttonskills .btn {
+        margin-right: 3px;
+        margin-top: 3px;
+        font-size: 14px;
+    }
+
+    .workDescription {
+        font-size: 14px;
+    }
+
+    .card-title {
+        font-size: 6vw;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
+.card {
+    height: 70vh;
+}
