@@ -143,149 +143,170 @@
 
     <div class="container-fluid">
         <h1 class="display-4 text-center p-3" id="projects">My Projects</h1>
-        <div class="card-deck card-columns">
+        <div class="row">
             <!-- card 1 anki app -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="/images/card1_anki_app.JPG" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Anki App</h4>
+            <div class="col-md-6">
+                <figure class="card card-flip">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="/images/card1_anki_app.JPG" alt="">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <h4 class="card-title display-1 text-center">Anki App</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: JavaScript, Node.js, React, Redux, SQL, API, HTML, CSS </i><br><br>
-                            The Anki React app is designed to assist users in learning new words by enabling them to
-                            create word cards. Users can either paste image URLs or perform word gif searches, utilizing
-                            data fetched from the Giphy API. After creating their personalized card
-                            collection, users can practice their knowledge through quiz mode.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/DI-Final-Project" class="btn btn-outline-dark"
-                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
-                        </p>
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text">
+                            <p><i>Skills used: JavaScript, Node.js, React, Redux, SQL, API, HTML, CSS
+                                </i><br><br>
+                                The Anki React app is designed to assist users in learning new words by enabling
+                                them to create word cards. Users can either paste image URLs or perform word gif
+                                searches, utilizing data fetched from the Giphy API. After creating their
+                                personalized card collection, users can practice their knowledge through quiz
+                                mode.
+                                <hr>
+                                <a href="https://github.com/l-tsipenyuk/DI-Final-Project" class="btn btn-outline-dark"
+                                    target="_blank" rel="noopener noreferrer">Explore
+                                    on GitHub</a> <br>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
             <!-- card 2 volunteer matcher -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./images/card2_vol_match.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Volunteer Matcher</h4>
+            <div class="col-md-6">
+                <figure class="card card-flip">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./images/card2_vol_match.png" alt="">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <h4 class="card-title display-1 text-center">Volunteer Matcher</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: JavaScript, Node.js, API, HTML, CSS</i><br><br>
-                            Volunteer Matcher allows users to discover volunteer opportunities based on their
-                            preferences. Additionally, users can subscribe to newsletter and explore all the
-                            volunteering options.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/DI-Hackathon2" class="btn btn-outline-dark"
-                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
-                        </p>
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text">
+                            <p><i>Skills used: JavaScript, Node.js, API, HTML, CSS</i><br><br>
+                                Volunteer Matcher allows users to discover volunteer opportunities based on
+                                their preferences. Additionally, users can subscribe to newsletter and
+                                explore all the volunteering options.
+                                <hr>
+                                <a href="https://github.com/l-tsipenyuk/DI-Hackathon2" class="btn btn-outline-dark"
+                                    target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
             <!-- card 3 energy tracker -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./images/card3_energy_track.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Energy Generation Tracker</h4>
+            <div class="col-md-6">
+                <figure class="card card-flip">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./images/card3_energy_track.png" alt="">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <h4 class="card-title display-1 text-center">Energy Generation Tracker</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: Python, SQL, Excel</i><br><br>
-                            Python-based command-line tool that allows users to track and analyze energy generation data
-                            from an open Excel database.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/DI-Hackathon1" class="btn btn-outline-dark"
-                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
-                        </p>
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text">
+                            <p><i>Skills used: Python, SQL, Excel</i><br><br>
+                                Python-based command-line tool that allows users to track and analyze energy
+                                generation data from an open Excel database.
+                                <hr>
+                                <a href="https://github.com/l-tsipenyuk/DI-Hackathon1" class="btn btn-outline-dark"
+                                    target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
             <!-- card 4 search book app -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./images/card4_search_book.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Book Search</h4>
+            <div class="col-md-6">
+                <figure class="card card-flip">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./images/card4_search_book.png" alt="">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <h4 class="card-title display-1 text-center">Book Search</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: JavaScript, React, API, HTML, CSS</i><br><br>Search Book React App based on
-                            Google Books API. The books are displayed depending on input search and can be filtered by
-                            the published year.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/search_book" class="btn btn-outline-dark"
-                                target="_blank" rel="noopener noreferrer">Explore on
-                                GitHub</a> <br>
-                        </p>
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text">
+                            <p><i>Skills used: JavaScript, React, API, HTML, CSS</i><br><br>Search Book React
+                                App based on
+                                Google Books API. The books are displayed depending on input search and can be
+                                filtered by
+                                the published year.
+                                <hr>
+                                <a href="https://github.com/l-tsipenyuk/search_book" class="btn btn-outline-dark"
+                                    target="_blank" rel="noopener noreferrer">Explore on
+                                    GitHub</a> <br>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
             <!-- card 5 planner -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img img-fluid" src="./images/card5_planner_app.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Daily Planner</h4>
+            <div class="col-md-6">
+                <figure class="card card-flip">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img img-fluid" src="./images/card5_planner_app.png" alt="">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <h4 class="card-title display-1 text-center">Daily Planner</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: JavaScript, React, Redux, HTML, CSS</i><br><br>
-                            React-Redux daily planner application allowing users to manage tasks for specific days.
-                            Users can add new tasks, edit and delete existing tasks.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/planner_app" class="btn btn-outline-dark"
-                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
-                        </p>
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text">
+                            <p><i>Skills used: JavaScript, React, Redux, HTML, CSS</i><br><br>
+                                React-Redux daily planner application allowing users to manage tasks for
+                                specific days.
+                                Users can add new tasks, edit and delete existing tasks.
+                                <hr>
+                                <a href="https://github.com/l-tsipenyuk/planner_app" class="btn btn-outline-dark"
+                                    target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
             <!-- card 6 superhero memory game -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="./images/card6_memory_game.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Memory Game</h4>
+            <div class="col-md-6">
+                <figure class="card card-flip">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img" src="./images/card6_memory_game.png" alt="">
+                        <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                            <h4 class="card-title display-1 text-center">Memory Game</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: JavaScript, React, HTML, CSS</i><br><br>
-                            React Superheroes Memory Game uses JSON data to fill cards on the page. Clicking a card
-                            triggers a shuffle of all cards. Each click on a new card increases the user's score. If the
-                            same card is clicked twice, the score resets to zero. The current score and top score are
-                            displayed on the navbar.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/memory_game" class="btn btn-outline-dark"
-                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
-                        </p>
+                    <div class="card">
+                        <div class="card-body d-flex justify-content-center align-items-center">
+                            <p class="card-text">
+                            <p><i>Skills used: JavaScript, React, HTML, CSS</i><br><br>
+                                React Superheroes Memory Game uses JSON data to fill cards on the page. Clicking
+                                a card
+                                triggers a shuffle of all cards. Each click on a new card increases the user's
+                                score. If the
+                                same card is clicked twice, the score resets to zero.
+                                <hr>
+                                <a href="https://github.com/l-tsipenyuk/memory_game" class="btn btn-outline-dark"
+                                    target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
+                            </p>
+                        </div>
                     </div>
-                </div>
-            </figure>
+                </figure>
+            </div>
+        </div>
+    </div>
+    </div>
 
 
 
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-                crossorigin="anonymous">
-                </script>
-            <script src="card.js"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-                integrity="your-integrity-hash" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
+        </script>
+    <script src="card.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="your-integrity-hash" crossorigin="anonymous"></script>
 
 
 </body>
