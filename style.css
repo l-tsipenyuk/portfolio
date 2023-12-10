@@ -7,33 +7,19 @@ body {
     ;
 }
 
+/* welcome-section */
+
+.welcomeHeader{
+    text-align: left;
+}
+
 .col-6 h4,
 a {
     margin-left: 5%;
 }
 
-#image0 {
-    height: 250px !important;
-    width: 320px !important;
-    margin-bottom:10% !important;
-    margin-left: 20% !important;
-}
-
-@media screen and (max-width: 680px) {
-    #image0 {
-        height: 170px !important;
-        width: 220px !important;
-        margin-top: 0% !important;
-        margin-bottom: 0% !important;
-    }
-}
-
 .col-4 p {
     font-size: 18px;
-}
-
-.col-4 h4 {
-    text-align: center;
 }
 
 .buttonskills .btn {
@@ -45,22 +31,17 @@ a {
     margin-right: 0;
 }
 
-#image2 {
-    height: 220px !important;
-    width: 350px !important;
-    margin-bottom: 50px;
-}
-
-@media screen and (max-width: 990px) {
-    #image2 {
-        height: 125px !important;
-        width: 190px !important;
-        margin-top: 20% !important;
-    }
-}
-
-#aboutme {
+#work {
     background-color: #e7d9ed !important;
+}
+
+.workDescription{
+    margin-left: 5%;
+    font-size: 18px;
+}
+
+.i{
+    color:red,
 }
 
 .card-title {
@@ -81,7 +62,6 @@ a {
 .text-white .card-img {
     filter: brightness(75%) saturate(50%);
 }
-
 
 .card-flip {
 
@@ -121,4 +101,7 @@ a {
 
 }
 
+.card-text{
+    margin-left: 5%;
+}
 

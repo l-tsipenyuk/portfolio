@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,6 +25,9 @@
 </head>
 
 <body>
+
+    <!--navbar-->
+
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #ca8cf4;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -42,7 +41,7 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-nowrap" href="#about-me">About me</a>
+                        <a class="nav-link text-nowrap" href="#work">Working Background</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -69,45 +68,27 @@
         </div>
     </nav>
     <br>
+
     <!--welcome section-->
-    <div class="container-fluid">
+
+    <div class="container-fluid" id="welcome">
         <div class="row">
             <div class="col-12">
                 <h1 class="display-3 p-5">Welcome to my Portfolio!</h1>
             </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-6">
-                        <h4>I'm Liya Tsipenyuk and I'm excited to showcase my journey into Full Stack
-                            development.
-                            As a student at Developers Institute in Tel Aviv, I'm improving my skills to craft
-                            exceptional
-                            websites. With my background in economics and sustainability, I'm
-                            committed to blending these diverse experiences into my creative path.</h4>
-                    </div>
-                    <div class="col-6">
-                        <img src="image0.png" class="img rounded mx-auto float-left" id="image0"
-                            alt="here will be an image">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--about me-->
-    <div class="container-fluid" id="aboutme">
-        <div class="row">
-            <div class="col-12" id="about-me">
-                <h1 class="display-4 text-center p-3">About me</h1>
+            <div class="col-4">
+                <img src="./images/image0.png" class="img-fluid rounded mx-auto d-block" id="image0"
+                    alt="here will be an image">
             </div>
             <div class="col-4">
-                <img src="image2.png" class="img rounded mx-auto d-block" id="image2" alt="here will be an image">
-            </div>
-            <div class="col-4">
-                <p class="About me">In April 2023, I moved to Tel Aviv, motivated by my lifelong passion to
-                    contribute to a more sustainable world within
-                    the heart of the startup nation. With a master's degree in economics and four years of
-                    experience in consulting and
-                    finance, I recognized the opportunity for a fresh start.</p>
+                <h4 class="welcomeHeader">I'm Liya Tsipenyuk, a Full Stack Developer skilled in front-end and back-end
+                    development.</h4>
+                <p>In April 2023 I moved to Tel Aviv with the motivation to contribute to a more sustainable world at
+                    the heart of the startup nation.</p>
+                <p>
+                    I honed my programming skills at the Developers' Institute Bootcamp, excelling in hackathons and Git
+                    version control.
+                </p>
             </div>
             <div class="col-4">
                 <h4 class="skills">My programming skills</h4>
@@ -121,22 +102,74 @@
                     <button type="button" class="btn btn-outine-dark" disabled>HTML</button>
                     <button type="button" class="btn btn-outine-dark mr-1" disabled>CSS</button>
                     <button type="button" class="btn btn-outine-dark mr-1" disabled>Bootstrap</button>
+                    <button type="button" class="btn btn-outine-dark mr-1" disabled>Git</button>
                 </div>
             </div>
         </div>
     </div>
     <br>
+
+    <!-- working background -->
+
+    <div class="container-fluid" id="work">
+        <div class="row">
+            <div class="col-12" id="my-work">
+                <h1 class="display-4 text-center p-3">My Working Background</h1>
+            </div>
+            <div class="col-8">
+                <div class="workDescription">
+                    <p>
+                        With a background in <b>Strategy Consulting</b> and <b>Data Analysis</b>, I've excelled in
+                        Business Analysis, Presentations, Project Management, and Public Speaking throughout my career.
+                    </p>
+                    <p>
+                        Specializing in <b>Sustainability</b>, I've worked with EU climate policies, SBTi, Greenhouse
+                        Gas Protocol and top ESG analysts (ISS, SASB, and GRI).
+                    </p>
+                    <p>
+                        I'm enthusiastic about applying my diverse skill set to Full Stack Development.
+                    </p>
+                </div>
+            </div>
+            <div class="col-4">
+                <img src="./images/workskills.jpg" class="img-fluid rounded mx-auto d-block" id="image0"
+                    alt="here will be an image">
+            </div>
+        </div>
+    </div>
+
     <!-- projects -->
 
     <div class="container-fluid">
         <h1 class="display-4 text-center p-3" id="projects">My Projects</h1>
         <div class="card-deck card-columns">
-
-
-            <!-- card 4 -->
+            <!-- card 1 anki app -->
             <figure class="card card-flip">
                 <div class="card bg-dark text-white">
-                    <img class="card-img" src="image8.png" alt="">
+                    <img class="card-img" src="/images/card1_anki_app.JPG" alt="">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h4 class="card-title display-1 text-center">Anki App</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <p class="card-text">
+                        <p><i>Skills used: JavaScript, Node.js, React, Redux, SQL, API, HTML, CSS </i><br><br>
+                            The Anki React app is designed to assist users in learning new words by enabling them to
+                            create word cards. Users can either paste image URLs or perform word gif searches, utilizing
+                            data fetched from the Giphy API. After creating their personalized card
+                            collection, users can practice their knowledge through quiz mode.
+                            <hr>
+                            <a href="https://github.com/l-tsipenyuk/DI-Final-Project" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
+                        </p>
+                    </div>
+                </div>
+            </figure>
+            <!-- card 2 volunteer matcher -->
+            <figure class="card card-flip">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/card2_vol_match.png" alt="">
                     <div class="card-img-overlay d-flex justify-content-center align-items-center">
                         <h4 class="card-title display-1 text-center">Volunteer Matcher</h4>
                     </div>
@@ -144,19 +177,39 @@
                 <div class="card">
                     <div class="card-body d-flex justify-content-center align-items-center">
                         <p class="card-text">
-                        <p><i>Skills used: JavaScript, Node.js, HTML, CSS</i><br><br>
-                            Web Application which allows users to discover volunteer opportunities based on their
-                            preferences. Additionally, users can
-                            subscribe to newsletter and explore all the volunteering options.
+                        <p><i>Skills used: JavaScript, Node.js, API, HTML, CSS</i><br><br>
+                            Volunteer Matcher allows users to discover volunteer opportunities based on their
+                            preferences. Additionally, users can subscribe to newsletter and explore all the
+                            volunteering options.
                             <hr>
-                            <a href="https://github.com/l-tsipenyuk/DI-Hackathon2" class="btn btn-outline-dark">Explore
-                                on
-                                GitHub</a> <br>
+                            <a href="https://github.com/l-tsipenyuk/DI-Hackathon2" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
                         </p>
                     </div>
                 </div>
             </figure>
-            <!-- card 3 -->
+            <!-- card 3 energy tracker -->
+            <figure class="card card-flip">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="./images/card3_energy_track.png" alt="">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h4 class="card-title display-1 text-center">Energy Generation Tracker</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <p class="card-text">
+                        <p><i>Skills used: Python, SQL, Excel</i><br><br>
+                            Python-based command-line tool that allows users to track and analyze energy generation data
+                            from an open Excel database.
+                            <hr>
+                            <a href="https://github.com/l-tsipenyuk/DI-Hackathon1" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
+                        </p>
+                    </div>
+                </div>
+            </figure>
+            <!-- card 4 search book app -->
             <figure class="card card-flip">
                 <div class="card bg-dark text-white">
                     <img class="card-img" src="image7.png" alt="">
@@ -173,7 +226,27 @@
                             are displayed depending on input search and can be filtered by the published year.
                             <hr>
                             <a href="https://github.com/l-tsipenyuk/DI-Bootcamp/tree/main/Week10/Day5/miniproject"
-                                class="btn btn-outline-dark">Explore
+                                class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Explore on
+                                GitHub</a> <br>
+                        </p>
+                    </div>
+                </div>
+            </figure>
+            <!-- card 5 superhero memory game -->
+            <figure class="card card-flip">
+                <div class="card bg-dark text-white">
+                    <img class="card-img" src="image1.png" alt="">
+                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
+                        <h4 class="card-title display-1 text-center">Super Hero memory game</h4>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body d-flex justify-content-center align-items-center">
+                        <p class="card-text">
+                        <p><i>Languages used: </i><br><br>
+                            Here you'll see the project description.
+                            <hr>
+                            <a href="https://github.com/l-tsipenyuk/Noa-Kirel" class="btn btn-outline-dark">Explore
                                 on
                                 GitHub</a> <br>
                         </p>
@@ -181,30 +254,7 @@
                 </div>
             </figure>
 
-            <!-- card 2 -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="image5.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Energy Generation Tracker</h4>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Skills used: Python, SQL</i><br><br>
-                            Python-based command-line tool that allows users to track and analyze energy generation data
-                            from an
-                            open database.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/DI-Hackathon1" class="btn btn-outline-dark">Explore
-                                on
-                                GitHub</a> <br>
-                        </p>
-                    </div>
-                </div>
-            </figure>
-            <!-- card 1 -->
+            <!-- card 6 tribute page -->
             <figure class="card card-flip">
                 <div class="card bg-dark text-white">
                     <img class="card-img img-fluid" src="image6.png" alt="">
@@ -226,48 +276,8 @@
                     </div>
                 </div>
             </figure>
-            <!-- card 5 -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="image1.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">The project 5 is coming.</h4>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Languages used: </i><br><br>
-                            Here you'll see the project description.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/Noa-Kirel" class="btn btn-outline-dark">Explore
-                                on
-                                GitHub</a> <br>
-                        </p>
-                    </div>
-                </div>
-            </figure>
-            <!-- card 6 -->
-            <figure class="card card-flip">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="image1.png" alt="">
-                    <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">The project 6 is coming.</h4>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-body d-flex justify-content-center align-items-center">
-                        <p class="card-text">
-                        <p><i>Languages used: </i><br><br>
-                            Here you'll see the project description.
-                            <hr>
-                            <a href="https://github.com/l-tsipenyuk/Noa-Kirel" class="btn btn-outline-dark">Explore
-                                on
-                                GitHub</a> <br>
-                        </p>
-                    </div>
-                </div>
-            </figure>
+
+
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
