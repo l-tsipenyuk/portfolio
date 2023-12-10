@@ -25,9 +25,7 @@
 </head>
 
 <body>
-
     <!--navbar-->
-
     <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #ca8cf4;">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -57,13 +55,16 @@
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item"
-                                    href="https://www.linkedin.com/in/liya-tsipenyuk-34a500234/">LinkedIn</a></li>
-                            <li><a class="dropdown-item" href="https://github.com/l-tsipenyuk">GitHub</a></li>
+                            <li><a class="dropdown-item" href="https://www.linkedin.com/in/liya-tsipenyuk-34a500234/"
+                                    target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                            <li><a class="dropdown-item" href="https://github.com/l-tsipenyuk" target="_blank"
+                                    rel="noopener noreferrer">GitHub</a></li>
                         </ul>
                     </li>
                 </ul>
-                <a class="btn btn-outline-dark" href="#" role="button">Check out my CV</a>
+                <a class="btn btn-outline-dark"
+                    href="https://docs.google.com/document/d/1Ke2LXFyPX919jtTOWXFTOlA1Q6mIkTSB4Eg1dX8u_5I/edit?usp=sharing"
+                    role="button" target="_blank" rel="noopener noreferrer">Check out my CV</a>
             </div>
         </div>
     </nav>
@@ -212,66 +213,65 @@
             <!-- card 4 search book app -->
             <figure class="card card-flip">
                 <div class="card bg-dark text-white">
-                    <img class="card-img" src="image7.png" alt="">
+                    <img class="card-img" src="./images/card4_search_book.png" alt="">
                     <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Book Cards</h4>
+                        <h4 class="card-title display-1 text-center">Book Search</h4>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body d-flex justify-content-center align-items-center">
                         <p class="card-text">
-                        <p><i>Skills used:
-                                JavaScript, React, HTML, CSS</i><br><br>Search Book React App based on Google Books API.
-                            The books
-                            are displayed depending on input search and can be filtered by the published year.
+                        <p><i>Skills used: JavaScript, React, API, HTML, CSS</i><br><br>Search Book React App based on
+                            Google Books API. The books are displayed depending on input search and can be filtered by
+                            the published year.
                             <hr>
-                            <a href="https://github.com/l-tsipenyuk/DI-Bootcamp/tree/main/Week10/Day5/miniproject"
-                                class="btn btn-outline-dark" target="_blank" rel="noopener noreferrer">Explore on
+                            <a href="https://github.com/l-tsipenyuk/search_book" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Explore on
                                 GitHub</a> <br>
                         </p>
                     </div>
                 </div>
             </figure>
-            <!-- card 5 superhero memory game -->
+            <!-- card 5 planner -->
             <figure class="card card-flip">
                 <div class="card bg-dark text-white">
-                    <img class="card-img" src="image1.png" alt="">
+                    <img class="card-img img-fluid" src="./images/card5_planner_app.png" alt="">
                     <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Super Hero memory game</h4>
+                        <h4 class="card-title display-1 text-center">Daily Planner</h4>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body d-flex justify-content-center align-items-center">
                         <p class="card-text">
-                        <p><i>Languages used: </i><br><br>
-                            Here you'll see the project description.
+                        <p><i>Skills used: JavaScript, React, Redux, HTML, CSS</i><br><br>
+                            React-Redux daily planner application allowing users to manage tasks for specific days.
+                            Users can add new tasks, edit and delete existing tasks.
                             <hr>
-                            <a href="https://github.com/l-tsipenyuk/Noa-Kirel" class="btn btn-outline-dark">Explore
-                                on
-                                GitHub</a> <br>
+                            <a href="https://github.com/l-tsipenyuk/planner_app" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
                         </p>
                     </div>
                 </div>
             </figure>
-
-            <!-- card 6 tribute page -->
+            <!-- card 6 superhero memory game -->
             <figure class="card card-flip">
                 <div class="card bg-dark text-white">
-                    <img class="card-img img-fluid" src="image6.png" alt="">
+                    <img class="card-img" src="./images/card6_memory_game.png" alt="">
                     <div class="card-img-overlay d-flex justify-content-center align-items-center">
-                        <h4 class="card-title display-1 text-center">Noa Kirel's Tribute Page</h4>
+                        <h4 class="card-title display-1 text-center">Memory Game</h4>
                     </div>
                 </div>
                 <div class="card">
                     <div class="card-body d-flex justify-content-center align-items-center">
                         <p class="card-text">
-                        <p><i>Skills used: HTML, CSS</i><br><br>
-                            A responsive and well-structured
-                            tribute page dedicated to my favorite singer.
+                        <p><i>Skills used: JavaScript, React, HTML, CSS</i><br><br>
+                            React Superheroes Memory Game uses JSON data to fill cards on the page. Clicking a card
+                            triggers a shuffle of all cards. Each click on a new card increases the user's score. If the
+                            same card is clicked twice, the score resets to zero. The current score and top score are
+                            displayed on the navbar.
                             <hr>
-                            <a href="https://github.com/l-tsipenyuk/Noa-Kirel" class="btn btn-outline-dark">Explore
-                                on
-                                GitHub</a> <br>
+                            <a href="https://github.com/l-tsipenyuk/memory_game" class="btn btn-outline-dark"
+                                target="_blank" rel="noopener noreferrer">Explore on GitHub</a> <br>
                         </p>
                     </div>
                 </div>
